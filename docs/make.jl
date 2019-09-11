@@ -1,25 +1,21 @@
 using Documenter, JuliaReachTemplatePkg
 
-makedocs(;
-    doctest = true,
-    modules=[JuliaReachTemplatePkg],
-    format = :html,
+DocMeta.setdocmeta!(JuliaReachTemplatePkg, :DocTestSetup,
+                    :(using JuliaReachTemplatePkg); recursive=true)
+
+makedocs(
+    sitename = "JuliaReachTemplatePkg.jl",
+    modules = [JuliaReachTemplatePkg],
+    format = Documenter.HTML(
+        prettyurls = get(ENV, "CI", nothing) == "true",
+        assets = ["assets/juliareach.css"]),
     pages = [
         "Home" => "index.md",
-        "Library" => Any[
-        "Types" => "lib/types.md",
-        "Methods" => "lib/methods.md"],
         "About" => "about.md"
     ],
-    repo="https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/blob/{commit}{path}#L{line}",
-    sitename="JuliaReachTemplatePkg.jl",
-    authors="Marcelo Forets",
-    assets = ["assets/juliareach.css"],
+    strict = true
 )
 
-deploydocs(;
-    repo="github.com/JuliaReach/JuliaReachTemplatePkg.jl",
-    target="build",
-    deps=nothing,
-    make=nothing,
+deploydocs(
+    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.jl.git",
 )

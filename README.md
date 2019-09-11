@@ -1,34 +1,51 @@
-# JuliaReachTemplatePkg
+# JuliaReachTemplatePkg.jl
+
 
 [![Build Status](https://travis-ci.org/JuliaReach/JuliaReachTemplatePkg.jl.svg?branch=master)](https://travis-ci.org/JuliaReach/JuliaReachTemplatePkg.jl)
 [![Docs latest](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/blob/master/LICENSE.md)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/blob/master/LICENSE)
 [![Code coverage](http://codecov.io/github/JuliaReach/JuliaReachTemplatePkg.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaReach/JuliaReachTemplatePkg.jl?branch=master)
 [![Join the chat at https://gitter.im/JuliaReach/Lobby](https://badges.gitter.im/JuliaReach/Lobby.svg)](https://gitter.im/JuliaReach/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-`JuliaReachTemplatePkg` is a [Julia](http://julialang.org) template package for the JuliaReach ecosystem.
+`JuliaReachTemplatePkg` is a [Julia](http://julialang.org) template package for
+the JuliaReach ecosystem.
+
+> :warning: This package is still a work-in-progress.
+  If you are interested, feel free to join the discussion at the
+  [JuliaReach Gitter channel](https://gitter.im/JuliaReach/Lobby).
 
 ## Resources
 
 - [Manual](http://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/)
-- [Contributing](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/about.html#Contributing-1)
+- [Contributing](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/about/#Contributing-1)
+- [Release notes of tagged versions](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/releases)
+- [Release notes of the development version](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/wiki/Release-log-tracker)
+- [Developers](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/about/#Credits-1)
 
 ## Installing
 
-This package requires Julia v1.0 or later. Refer to the
-[official documentation](https://julialang.org/downloads) on how to install and
-run Julia in your system.
+This package requires Julia v1.0 or later.
+Refer to the [official documentation](https://julialang.org/downloads) on how to
+install and run Julia on your system.
 
-To install this package, use the following command inside Julia's REPL:
+Depending on your needs, choose an appropriate command from the following list
+and enter it in Julia's REPL.
+To activate the `pkg` mode, type `]` (and to leave it, type `<backspace>`).
+
+#### [Install the latest release version](https://julialang.github.io/Pkg.jl/v1/managing-packages/#Adding-registered-packages-1)
 
 ```julia
-using Pkg
-Pkg.add("JuliaReachTemplatePkg")
+pkg> add JuliaReachTemplatePkg
 ```
 
-## Updating
+#### Install the latest development version
 
-To checkout the latest version, do
 ```julia
-Pkg.checkout("JuliaReachTemplatePkg")
-````
+pkg> add JuliaReachTemplatePkg#master
+```
+
+#### [Clone the package for development](https://julialang.github.io/Pkg.jl/v1/managing-packages/#Developing-packages-1)
+
+```julia
+pkg> dev JuliaReachTemplatePkg
+```
