@@ -1,10 +1,10 @@
-# JuliaReachTemplatePkg.jl
+# JuliaReachTemplatePkg
 
 
-[![Build Status](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/actions/workflows/ci.yml?query=branch%3Amaster)
-[![Docs latest](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/blob/master/LICENSE)
-[![Code coverage](http://codecov.io/github/JuliaReach/JuliaReachTemplatePkg.jl/coverage.svg?branch=master)](https://codecov.io/github/JuliaReach/JuliaReachTemplatePkg.jl?branch=master)
+[![Build Status](https://github.com/JuliaReach/JuliaReachTemplatePkg/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaReach/JuliaReachTemplatePkg/actions/workflows/ci.yml?query=branch%3Amaster)
+[![Docs latest](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliareach.github.io/JuliaReachTemplatePkg/latest/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JuliaReach/JuliaReachTemplatePkg/blob/master/LICENSE)
+[![Code coverage](http://codecov.io/github/JuliaReach/JuliaReachTemplatePkg/coverage.svg?branch=master)](https://codecov.io/github/JuliaReach/JuliaReachTemplatePkg?branch=master)
 [![Join the chat at https://gitter.im/JuliaReach/Lobby](https://badges.gitter.im/JuliaReach/Lobby.svg)](https://gitter.im/JuliaReach/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 `JuliaReachTemplatePkg` is a [Julia](http://julialang.org) template package for
@@ -16,11 +16,11 @@ the JuliaReach ecosystem.
 
 ## Resources
 
-- [Manual](http://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/)
-- [Contributing](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/about/#Contributing-1)
-- [Release notes of tagged versions](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/releases)
-- [Release notes of the development version](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/wiki/Release-log-tracker)
-- [Developers](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/about/#Credits-1)
+- [Manual](http://juliareach.github.io/JuliaReachTemplatePkg/latest/)
+- [Contributing](https://juliareach.github.io/JuliaReachTemplatePkg/latest/about/#Contributing-1)
+- [Release notes of tagged versions](https://github.com/JuliaReach/JuliaReachTemplatePkg/releases)
+- [Release notes of the development version](https://github.com/JuliaReach/JuliaReachTemplatePkg/wiki/Release-log-tracker)
+- [Developers](https://juliareach.github.io/JuliaReachTemplatePkg/latest/about/#Credits-1)
 
 ## Installing
 
