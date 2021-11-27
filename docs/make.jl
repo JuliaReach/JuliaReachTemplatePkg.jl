@@ -17,5 +17,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.jl.git",
+    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.jl.git"
 )
