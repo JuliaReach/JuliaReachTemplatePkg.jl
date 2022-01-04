@@ -2,7 +2,7 @@
 
 
 [![Build Status](https://github.com/JuliaReach/JuliaReachTemplatePkg/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaReach/JuliaReachTemplatePkg/actions/workflows/ci.yml?query=branch%3Amaster)
-[![Docs latest](https://img.shields.io/badge/docs-latest-blue.svg)](http://juliareach.github.io/JuliaReachTemplatePkg/latest/)
+[![Docs latest](https://img.shields.io/badge/docs-latest-blue.svg)](https://juliareach.github.io/JuliaReachTemplatePkg/dev/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JuliaReach/JuliaReachTemplatePkg/blob/master/LICENSE)
 [![Code coverage](http://codecov.io/github/JuliaReach/JuliaReachTemplatePkg/coverage.svg?branch=master)](https://codecov.io/github/JuliaReach/JuliaReachTemplatePkg?branch=master)
 [![Join the chat at https://gitter.im/JuliaReach/Lobby](https://badges.gitter.im/JuliaReach/Lobby.svg)](https://gitter.im/JuliaReach/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
