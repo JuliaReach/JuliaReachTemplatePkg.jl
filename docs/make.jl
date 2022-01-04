@@ -8,7 +8,7 @@ makedocs(
     modules = [JuliaReachTemplatePkg],
     format = Documenter.HTML(
         prettyurls = get(ENV, "CI", nothing) == "true",
-        assets = ["assets/juliareach-light.css"]),
+        assets = ["assets/aligned.css"]),
     pages = [
         "Home" => "index.md",
         "About" => "about.md"
@@ -17,5 +17,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.jl.git",
+    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.jl.git"
 )
