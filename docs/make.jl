@@ -17,5 +17,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.git"
+    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.git",
+    push_preview = true
 )
