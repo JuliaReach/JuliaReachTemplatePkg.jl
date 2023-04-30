@@ -4,7 +4,7 @@ DocMeta.setdocmeta!(JuliaReachTemplatePkg, :DocTestSetup,
                     :(using JuliaReachTemplatePkg); recursive=true)
 
 makedocs(
-    sitename = "JuliaReachTemplatePkg",
+    sitename = "JuliaReachTemplatePkg.jl",
     modules = [JuliaReachTemplatePkg],
     format = Documenter.HTML(
         prettyurls = get(ENV, "CI", nothing) == "true",
@@ -17,6 +17,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.git",
+    repo = "github.com/JuliaReach/JuliaReachTemplatePkg.jl.git",
     push_preview = true
 )
