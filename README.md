@@ -28,7 +28,7 @@ Depending on your needs, choose an appropriate command from the following list
 and enter it in Julia's REPL.
 To activate the `pkg` mode, type `]` (and to leave it, type `<backspace>`).
 
-#### [Install the latest release version](https://julialang.github.io/Pkg.jl/v1/managing-packages/#Adding-registered-packages-1)
+#### [Install the latest release version](https://pkgdocs.julialang.org/v1/managing-packages/#Adding-registered-packages-1)
 
 ```julia
 pkg> add JuliaReachTemplatePkg
@@ -40,7 +40,7 @@ pkg> add JuliaReachTemplatePkg
 pkg> add JuliaReachTemplatePkg#master
 ```
 
-#### [Clone the package for development](https://julialang.github.io/Pkg.jl/v1/managing-packages/#Developing-packages-1)
+#### [Clone the package for development](https://pkgdocs.julialang.org/v1/managing-packages/#developing)
 
 ```julia
 pkg> dev JuliaReachTemplatePkg
