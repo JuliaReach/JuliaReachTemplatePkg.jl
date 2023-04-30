@@ -11,18 +11,15 @@ Pages = ["about.md"]
 
 If you like this package, consider contributing!
 
-[Creating an issue](https://help.github.com/en/articles/creating-an-issue) in
+[Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) in
 the
 [JuliaReachTemplatePkg GitHub issue tracker](https://github.com/JuliaReach/JuliaReachTemplatePkg.jl/issues)
 to report a bug, open a discussion about existing functionality, or suggest new
 functionality is appreciated.
 
 If you have written code and would like it to be peer reviewed and added to the
-library, you can [fork](https://help.github.com/en/articles/fork-a-repo) the
+library, you can [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the
 repository and send a pull request (see below).
-Typical contributions include fixing a bug, adding a new feature, or improving
-the documentation (either in source code or the
-[online manual](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/man/getting_started/)).
 
 You are also welcome to get in touch with us in the
 [JuliaReach Zulip channel](https://julialang.zulipchat.com/#narrow/stream/278609-juliareach).
@@ -35,19 +32,19 @@ that is expected for the code that is finally merged into the library.
 
 ### Branches and pull requests (PR)
 
-We use a standard pull request policy:
+We use a standard pull-request policy:
 You work in a private branch and eventually add a pull request, which is then
 reviewed by other programmers and merged into the `master` branch.
 
-Each pull request should be pushed in a new branch with the name of the author
+Each pull request should be based on a branch with the name of the author
 followed by a descriptive name, e.g., `mforets/my_feature`.
 If the branch is associated to a previous discussion in an issue, we use the
-name of the issue for easier lookup, e.g., `mforets/7`.
+number of the issue for easier lookup, e.g., `mforets/7`.
 
 ### Unit testing and continuous integration (CI)
 
-This project is synchronized with Travis CI such that each PR gets tested before
-merging (and the build is automatically triggered after each new commit).
+This project is synchronized with GitHub Actions such that each PR gets tested
+before merging (and the build is automatically triggered after each new commit).
 For the maintainability of this project, it is important to understand and fix
 the failing unit tests if they exist.
 
@@ -80,10 +77,10 @@ types there (see the source code or
 [`Documenter`'s guide](https://juliadocs.github.io/Documenter.jl/stable/man/guide/)
 for examples).
 
-To generate the documentation locally, run `make.jl`, e.g., by executing the
-following command in the terminal:
+To generate the documentation locally, run `docs/make.jl`, e.g., by executing
+the following command in the terminal:
 
-```
+```bash
 $ julia --color=yes docs/make.jl
 ```
 
