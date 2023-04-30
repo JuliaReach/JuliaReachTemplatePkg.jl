@@ -91,5 +91,5 @@ library, as well as past and present contributors (in alphabetic order).
 
 ### Core developers
 
-- [Marcelo Forets](http://github.com/mforets)
-- [Christian Schilling](https://www.christianschilling.net/)
+- [Marcelo Forets](http://github.com/mforets), Universidad de la República
+- [Christian Schilling](https://www.christianschilling.net/), Aalborg University
