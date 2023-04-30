@@ -25,7 +25,7 @@ the documentation (either in source code or the
 [online manual](https://juliareach.github.io/JuliaReachTemplatePkg.jl/latest/man/getting_started/)).
 
 You are also welcome to get in touch with us in the
-[JuliaReach gitter chat](https://gitter.im/JuliaReach/Lobby).
+[JuliaReach Zulip channel](https://julialang.zulipchat.com/#narrow/stream/278609-juliareach).
 
 Below we give some general comments about contributing to this package.
 The
@@ -53,16 +53,9 @@ the failing unit tests if they exist.
 
 When you modify code in this package, you should make sure that all unit tests
 pass.
-To run the unit tests locally, you can do:
+To run the unit tests locally, you can switch to `pkg` mode (via `]`) and type:
 
 ```
-$ julia --color=yes test/runtests.jl
-```
-
-Alternatively, you can achieve the same from the REPL using the following
-command:
-
-```julia
 pkg> test JuliaReachTemplatePkg
 ```
 
@@ -76,10 +69,6 @@ New functions and types should be documented according to the
 
 You can view the source-code documentation from inside the REPL by typing `?`
 followed by the name of the type or function.
-
-```julia
-julia> ?my_function
-```
 
 The documentation you are currently reading is written in
 [Markdown](https://en.wikipedia.org/wiki/Markdown), and it relies on the package

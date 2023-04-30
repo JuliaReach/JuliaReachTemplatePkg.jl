@@ -1,5 +1,3 @@
 module JuliaReachTemplatePkg
 
-
-
 end  # module
