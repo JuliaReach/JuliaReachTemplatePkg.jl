@@ -45,15 +45,15 @@ number of the issue for easier lookup, e.g., `mforets/7`.
 
 This project is synchronized with GitHub Actions such that each PR gets tested
 before merging (and the build is automatically triggered after each new commit).
-For the maintainability of this project, it is important to understand and fix
-the failing unit tests if they exist.
-
-When you modify code in this package, you should make sure that all unit tests
+For the maintainability of this project, it is important to make all unit tests
 pass.
-To run the unit tests locally, you can switch to `pkg` mode (via `]`) and type:
 
-```
-pkg> test JuliaReachTemplatePkg
+To run the unit tests locally, you can do:
+
+```julia
+julia> using Pkg
+
+julia> Pkg.test("JuliaReachTemplatePkg")
 ```
 
 We also advise adding new unit tests when adding new features to ensure
