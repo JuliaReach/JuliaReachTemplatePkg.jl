@@ -1,7 +1,7 @@
 module JuliaReachTemplatePkg
 
 function foo()
-    println("hello world")
+    return println("hello world")
 end
 
 end  # module
