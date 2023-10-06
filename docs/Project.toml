@@ -1,2 +1,6 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+JuliaReachTemplatePkg = "2b714139-d377-45b9-9f15-0355f7430025"
+
+[compat]
+Documenter = "1"
